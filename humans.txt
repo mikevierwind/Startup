@@ -1,0 +1,42 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+  Visual designer: Fabrizio diBon
+  Site: http://www.lbi.nl
+  Contact: Fabrizio.diBon[at]lbi.com
+
+  Front End developer: Mike Vierwind
+  Site: http://www.lbi.nl
+  Contact: Mike.Vierwind[at]lbi.com
+
+  Back End developer: Patrik Husfloen
+  Site: http://www.lbi.nl
+  Contact: Patrik.Husfloen[at]lbi.com
+
+  Back End developer: Ronald Blankendaal
+  Site: http://www.lbi.nl
+  Contact: Ronald.Blankendaal[at]lbi.com
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery, scss CSS,
+  Software: EPiServer
+
+
+LLLLLLLLLLL             BBBBBBBBBBBBBBBBB     iiii
+L:::::::::L             B::::::::::::::::B   i::::i
+L:::::::::L             B::::::BBBBBB:::::B   iiii
+LL:::::::LL             BB:::::B     B:::::B
+  L:::::L                 B::::B     B:::::Biiiiiii
+  L:::::L                 B::::B     B:::::Bi:::::i
+  L:::::L                 B::::BBBBBB:::::B  i::::i
+  L:::::L                 B:::::::::::::BB   i::::i
+  L:::::L                 B::::BBBBBB:::::B  i::::i
+  L:::::L                 B::::B     B:::::B i::::i
+  L:::::L                 B::::B     B:::::B i::::i
+  L:::::L         LLLLLL  B::::B     B:::::B i::::i
+LL:::::::LLLLLLLLL:::::LBB:::::BBBBBB::::::Bi::::::i
+L::::::::::::::::::::::LB:::::::::::::::::B i::::::i
+L::::::::::::::::::::::LB::::::::::::::::B  i::::::i
+LLLLLLLLLLLLLLLLLLLLLLLLBBBBBBBBBBBBBBBBB   iiiiiiii

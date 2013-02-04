@@ -1,0 +1,18 @@
+CACHE MANIFEST
+# 2012-04-29:v1
+
+CACHE:
+static/css/basic.css
+static/css/mobile.css
+static/css/desktop.css
+static/js/plugins.js
+static/img/logo.png
+static/img/logo-echtachterhoek.png
+static/img/sprites/sprite.png
+static/img/backgrounds/box-booking.png
+static/img/backgrounds/footer.jpg
+
+templates/homepage.shtml
+
+NETWORK:
+*

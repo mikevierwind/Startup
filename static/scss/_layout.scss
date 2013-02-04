@@ -1,0 +1,43 @@
+//
+// Layout.scss
+// --------------------------------------------------
+
+// Global styles
+// --------------------------------------------------
+.container {
+    position: relative;
+    max-width: 68.571428571em;  // 960/14
+    width: 100%;
+    margin: 0 auto;
+}
+
+// Main
+// --------------------------------------------------
+#main {
+    position: relative;
+    padding: 35px 0 0;
+    margin: 0 0 1.5em;
+}
+    #main h1 {
+
+    }
+    #main h2 {
+
+    }
+
+// Section
+// -------------------------
+.section {
+    position: relative;
+    @include clearfix;
+}
+    .section .col-9 {
+        @include column(9);
+    }
+    .section .col-3 {
+        @include column(3);
+    }
+
+@media (min-width: 62.5em) {
+
+}

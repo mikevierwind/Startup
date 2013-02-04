@@ -1,0 +1,84 @@
+//
+// Header
+// --------------------------------------------------
+#header {
+    position: relative;
+    height: 250px;
+    background: $c2;
+}
+	// Logo
+	#header [title*="Logo"] {
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+	}
+
+    // Skip links
+    #skip {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin: 0 0 0 -50px;
+        width: 50%;
+        z-index: 500;
+        list-style: none;
+    }
+        #skip a {
+            display: block;
+            position: absolute;
+            top: -3.5em;
+            height: 32px;
+            width: 100px;
+            padding: 8px 0 0;
+            @include font-size(15);
+            overflow: hidden;
+            color: $white;;
+            text-align: center;
+            background: darken($c2, 15%);
+        }
+        #nav > h2, #footer .container > h2 {
+            border: 0;
+            clip: rect(0 0 0 0);
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
+            padding: 0;
+            position: absolute;
+            width: 1px;
+        }
+        #skip a span{
+            display: none;
+        }
+        #skip a:hover,
+        #skip a:focus,
+        #skip a:active {
+            outline: none;
+            top: 0;
+            text-decoration: underline;
+        }
+
+// Search
+// -------------------------
+#form-search {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+    #form-search .btn-search {
+        display: inline-block;
+        padding: 4px 8px;
+        border: 1px solid $grayLight;
+        color: $black;
+        background: $white;
+    }
+    #form-search input[type="search"] {
+        @include font-size(13);
+    }
+
+
+@media (min-width: 62.5em) {
+
+}

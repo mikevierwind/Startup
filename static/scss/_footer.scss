@@ -1,0 +1,19 @@
+//
+// Footer.scss
+// --------------------------------------------------
+#footer {
+    padding: 10px 0;
+    background: #23323F;
+    color: $white;
+}
+    #footer a {
+        color: $white;
+    }
+    #footer .col-4 {
+        @include column(4);
+    }
+
+
+@media (min-width: 62.5em) {
+
+}

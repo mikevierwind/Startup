@@ -1,0 +1,29 @@
+<footer id="footer" role="contentinfo">
+    <div class="container">
+    	<h2>Content informatie</h2>
+        <div class="row">
+            <div class="col-4">
+                <div class="vcard" itemscope itemtype="http://schema.org/Organization">
+                    <span itemprop="name">Google.org (GOOG)</span>
+                    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                        <span itemprop="streetAddress">Straatnaam</span>
+                        <span itemprop="postalCode">1096 AV</span>
+                        <span itemprop="addressLocality">Amsterdam, Nederland</span>
+                    </div>
+                    Tel:
+                    <span itemprop="telephone">( 33 1) 42 68 53 00</span>
+                    Fax:
+                    <span itemprop="faxNumber">( 33 1) 42 68 53 01</span>
+                    E-mail:
+                    <span itemprop="email">secretariat(at)google.org</span>
+                </div><!-- /vcard -->
+            </div><!-- /col-4 -->
+            <div class="col-4">
+
+            </div><!-- /col-4 -->
+            <div class="col-4">
+
+            </div><!-- /col-4 -->
+        </div><!-- /row -->
+    </div><!-- /container -->
+</footer><!-- /footer -->

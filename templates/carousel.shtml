@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <!--#include file="includes/head.shtml" -->
+
+    <title>Name of the website | Name of the page</title>
+    <meta name="description" content="">
+</head>
+<body>
+    <!--[if lt IE 8]>
+        <p class=chromeframe><strong>Je hebt een verouderde browser!</strong> <a href="http://browsehappy.com/">Upgrade naar een betere browser</a> of
+        <a href="http://www.google.com/chromeframe/?redirect=true">installeer Google Chrome Frame</a> om deze website toch te kunnen bekijken.</p>
+    <![endif]-->
+
+    <div class="container">
+        <div id="main" role="main">
+            <section class="section" role="region" aria-labelledby="articles">
+                <h1>Components - Carousel</h1>
+                <div class="row">
+                    <div class="column col-12">
+                        <div class="c">
+                            <div class="c-list-container">
+                                <ul class="c-list">
+                                    <li>
+                                        <a href="#">
+                                            <img src="http://bradfrost.github.com/this-is-responsive/patterns/images/fpo_landscape.png" alt="FPO Image" />
+                                            <div class="summary">
+                                                <h2>This is the first title</h2>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget lacus erat, sit amet tempor nibh. Aliquam erat volutpat. Nulla et. </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="http://bradfrost.github.com/this-is-responsive/patterns/images/fpo_landscape.png" alt="FPO Image" />
+                                            <div class="summary">
+                                                <h2>This is the second title</h2>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget lacus erat, sit amet tempor nibh. Aliquam erat volutpat. Nulla et. </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="http://bradfrost.github.com/this-is-responsive/patterns/images/fpo_landscape.png" alt="FPO Image" />
+                                            <div class="summary">
+                                                <h2>This is the third title</h2>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget lacus erat, sit amet tempor nibh. Aliquam erat volutpat. Nulla et. </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <nav class="c-nav">
+                                <a href="#" class="prev">&larr; Prev</a>
+                                <a href="#" class="next">Next &rarr;</a>
+                            </nav>
+                        </div>
+                    </div><!-- /col-9 -->
+                </div><!-- /row -->
+            </section><!-- section -->
+        </div><!-- main -->
+
+    </div><!-- container -->
+
+    <!--#include file="includes/javascript.shtml" -->
+</body>
+</html>

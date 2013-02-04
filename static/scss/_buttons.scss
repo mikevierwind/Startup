@@ -1,0 +1,37 @@
+//
+// Buttons.scss
+// --------------------------------------------------
+.btn,
+[class*="btn-"] {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background: $grayLight;
+    color: $white;
+    margin: 1em 0;
+
+    &:hover,
+    &:focus {
+        color: $white;
+        background: $gray;
+        text-decoration: none;
+    }
+}
+.btn-1 {
+
+}
+.btn-2 {
+
+}
+.btn-3 {
+
+}
+.prev {
+
+}
+.next {
+
+}
+
+@media (min-width: 62.5em) {
+
+}

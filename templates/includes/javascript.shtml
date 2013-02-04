@@ -1,0 +1,9 @@
+<noscript>
+    <p class="msg-warning"><strong>Je hebt javascript uitgeschakeld</strong>
+    <a href="https://support.google.com/adsense/bin/answer.py?hl=en&amp;answer=12654" title="Lees hier hoe je javascript kunt inschakelen">Lees hier hoe je javascript kunt inschakelen</a>
+</noscript>
+
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script src="../static/js/plugins.js"></script>
+<script src="../static/js/libs/carousel.js"></script>
+<script src="../static/js/projectname.js"></script>

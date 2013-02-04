@@ -1,0 +1,19 @@
+<header id="header" role="banner">
+    <a href="#" title="Logo van ..." class="logo">
+        <img src="http://placehold.it/215x165" width="215" height="165" alt="Logo van PUT HERE THE TITLE OF COMPANY / WEBSITE" />
+    </a><!-- /logo -->
+    <ul id="skip">
+        <li><a href="#nav"><span>Direct naar: </span>Navigatie</a></li>
+        <li><a href="#form-search"><span>Direct naar: </span>Zoeken</a></li>
+        <li><a href="#sitemap"><span>Direct naar: </span>Sitemap</a></li>
+    </ul><!-- /skip -->
+    <form action="#" method="get" id="form-search">
+        <div class="search" role="search">
+            <fieldset class="labels-hidden">
+                <label for="q">Zoeken</label>
+                <input type="search" name="q" id="q" placeholder="Voer hier uw zoekopdracht in" class="text" required value />
+                <input type="submit" name="" value="Zoeken" title="Zoeken door de website" class="btn btn-search" />
+            </fieldset>
+        </div>
+    </form><!-- /form-search -->
+</header><!-- /header -->

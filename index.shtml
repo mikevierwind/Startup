@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<!--#include file="templates/includes/head.shtml" -->
+
+    <title>Name of the website | Name of the page</title>
+    <meta name="description" content="">
+
+	<style>
+		body {
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+
+		table {
+			float: left;
+			width: 100%;
+		}
+			table a {
+				display: block;
+				font-size: 1.200em;
+				color: #000;
+			}
+			th {
+				font-weight: bold;
+			}
+			thead th {
+				background: #ee9026;
+				color: #fff;
+				text-align: left;
+			}
+			th, td, caption {
+				vertical-align: middle;
+				padding: 6px 10px;
+				font-size: 12px;
+			}
+			tbody tr:nth-child(even) th,
+			tbody tr:nth-child(even) td{
+				background: #f6f6f3;
+			}
+
+		.container {
+			margin: 0 auto;
+			width: 960px;
+		}
+
+		#main {
+			position: relative;
+			overflow: hidden;
+			padding: 50px 0;
+		}
+			h1 {
+				line-height: 35px;
+				margin: 0 0 25px;
+			}
+
+		#legenda {
+			width: 100%;
+			margin: 0 0 1em;
+		}
+		#legenda ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+			#legenda li {
+				margin: 0 0 8px;
+			}
+				#legenda li img {
+					margin: 0 10px 0 0;
+					float: left;
+				}
+				#legenda span {
+					display: block;
+					padding: 5px 0;
+				}
+	</style>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+        <p class=chromeframe><strong>Je hebt een verouderde browser!</strong> <a href="http://browsehappy.com/">Upgrade naar een betere browser</a> of
+        <a href="http://www.google.com/chromeframe/?redirect=true">installeer Google Chrome Frame</a> om deze website toch te kunnen bekijken.</p>
+    <![endif]-->
+
+	<div class="container">
+
+		<div id="main" role="main">
+			<h1>Template overzicht</h1>
+			<div id="legenda">
+				<h3>Legenda</h3>
+				<ul>
+					<li><img src="img/template-overview/icon-notpresent.png" alt="flag" /> <span>Template nog niet aanwezig</span></li>
+					<li><img src="img/template-overview/icon-inprogress.png" alt="In progress" /> <span>Template work in progress</span></li>
+					<li><img src="img/template-overview/icon-finished.png" alt="Ready" /> <span>Template klaar</span></li>
+					<li><img src="img/template-overview/icon-notapproved.png" alt="Nog niet akkoord" /> <span>Template nog niet akkoord door de klant</span></li>
+					<li><img src="img/template-overview/icon-approved.png" alt="Approved" /> <span>Template door de klant akkoord</span></li>
+				</ul>
+			</div>
+			<table>
+				<thead>
+					<tr>
+						<th>Code</th>
+						<th>Template naam:</th>
+						<th>Beschrijving / opmerkingen</th>
+						<th>Status</th>
+						<th>Akkoord</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr id="1">
+						<td>T1</td>
+						<td><a href="templates/homepage.shtml">Homepage</a></td>
+						<td></td>
+						<td><img src="img/template-overview/icon-notpresent.png" alt=""></td>
+						<td><img src="img/template-overview/icon-notapproved.png" alt=""></td>
+					</tr>
+					<tr>
+						<td>T2</td>
+						<td><a href="templates/content.shtml">Content / CMS</a></td>
+						<td></td>
+						<td><img src="img/template-overview/icon-notpresent.png" alt=""></td>
+						<td><img src="img/template-overview/icon-notapproved.png" alt=""></td>
+					</tr>
+					<tr>
+						<td>T3</td>
+						<td><a href="templates/googlemaps.shtml">Google maps</a></td>
+						<td></td>
+						<td><img src="img/template-overview/icon-notpresent.png" alt=""></td>
+						<td><img src="img/template-overview/icon-notapproved.png" alt=""></td>
+					</tr>
+					<tr>
+						<td>T4</td>
+						<td><a href="templates/carousel.shtml">Carousel</a></td>
+						<td></td>
+						<td><img src="img/template-overview/icon-notpresent.png" alt=""></td>
+						<td><img src="img/template-overview/icon-notapproved.png" alt=""></td>
+					</tr>
+					<tr>
+						<td>T5</td>
+						<td><a href="templates/forms.shtml">Formulieren</a></td>
+						<td></td>
+						<td><img src="img/template-overview/icon-notpresent.png" alt=""></td>
+						<td><img src="img/template-overview/icon-notapproved.png" alt=""></td>
+					</tr>
+					<tr>
+						<td>T6</td>
+						<td><a href="templates/svg.shtml">SVG</a></td>
+						<td></td>
+						<td><img src="img/template-overview/icon-notpresent.png" alt=""></td>
+						<td><img src="img/template-overview/icon-notapproved.png" alt=""></td>
+					</tr>
+				<thead>
+					<tr id="2">
+					    <th colspan="5">E-mail templates &amp; Socialmedia</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td></td>
+						<td><a href="#" target="blank">Nieuwsbrief / EDM</a></td>
+						<td>Comment</td>
+						<td><img src="img/template-overview/icon-notpresent.png" alt=""></td>
+						<td><img src="img/template-overview/icon-notapproved.png" alt=""></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><a href="#" target="blank">Page 2</a></td>
+						<td></td>
+						<td><img src="img/template-overview/icon-notpresent.png" alt=""></td>
+						<td><img src="img/template-overview/icon-notapproved.png" alt=""></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><a href="#" target="blank">Page 3</a></td>
+						<td></td>
+						<td><img src="img/template-overview/icon-notpresent.png" alt=""></td>
+						<td><img src="img/template-overview/icon-notapproved.png" alt=""></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><a href="#" target="blank">Page 4</a></td>
+						<td></td>
+						<td><img src="img/template-overview/icon-notpresent.png" alt=""></td>
+						<td><img src="img/template-overview/icon-notapproved.png" alt=""></td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr id="2">
+						<th colspan="5">Styleguide &amp; Grid</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td></td>
+						<td><a href="styleguide/styleguide.shtml">Styleguide</a></td>
+						<td>Components, CSS Structure etc</td>
+						<td><img src="img/template-overview/icon-notpresent.png" alt=""></td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr id="3">
+						<th colspan="5">Server error pagina's</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>T404</td>
+						<td><a href="templates/404.shtml">Error 404</a></td>
+						<td>"File not found", server error pagina</td>
+						<td><img src="img/template-overview/icon-notpresent.png" alt=""></td>
+						<td><img src="img/template-overview/icon-notapproved.png" alt=""></td>
+					</tr>
+					<tr>
+						<td>T503</td>
+						<td><a href="templates/404.shtml">Error 503</a></td>
+						<td>"Service Unavailable", tijdelijke maintenance pagina tijdens updates</td>
+						<td><img src="img/template-overview/icon-notpresent.png" alt=""></td>
+						<td><img src="img/template-overview/icon-notapproved.png" alt=""></td>
+					</tr>
+				</tbody>
+			</table><!-- table -->
+		</div><!-- main -->
+	</div><!-- container -->
+</body>
+</html>
